@@ -36,7 +36,7 @@ jobs:
       - name: Upload WebGIS files
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./webgis
+          path: ./____webgis
 
       - name: Deploy GitHub Pages
         id: deployment
